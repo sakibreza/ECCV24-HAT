@@ -58,5 +58,19 @@ To test HAT, execute the command below.
 python main.py --mode=test --split=[split #]
 ```
 
+## Citing HAT
+Please cite our paper in your publications if it helps your research:
+
+```BibTeX
+@inproceedings{reza2022history,
+  title={HAT: History-Augmented Anchor Transformer for Online Temporal Action Localization},
+  author={Reza, Sakib and Zhang, Yuexi and Moghaddam, Mohsen and Camps, Octavia},
+  booktitle={European Conference on Computer Vision},
+  pages={XXX--XXX},
+  year={2024},
+  organization={Springer}
+}
+```
+
 ## Acknowledgment
 This repository is created based on the repository of the baseline work [OAT-OSN](https://github.com/YHKimGithub/OAT-OSN/).
