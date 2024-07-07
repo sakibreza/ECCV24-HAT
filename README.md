@@ -1,5 +1,7 @@
-# HAT: History-Augmented Anchor Transformer for Online Temporal Action Localization   
-Anonymous Authors   
+# HAT: History-Augmented Anchor Transformer for Online Temporal Action Localization (ECCV 2024) 
+Sakib Reza, Yuexi Zhang, Mohsen Moghaddam, Octavia Camps
+
+Northeastern University, Boston, United States
 
 
 ## Installation
