@@ -7,6 +7,11 @@
 ## [Arxiv Preprint](https://arxiv.org/abs/2408.06437) 
 
 
+## Updates
+- Aug 22, 2024 - EGTEA pre-extracted features and config files for other datasets added
+- Aug 14, 2024 - Arxiv preprint added
+- July 7, 2024 - initial code release 
+
 ## Installation
 
 ### Prerequisites
@@ -28,19 +33,17 @@ pip install -r requirement.txt
 ## Training
 
 ### Input Features
-We will provide the Kinetics I3D pre-trained feature of EGTEA dataset.
-The extracted features can be downloaded from [link]() (Could not share the GDrive link because of anonymity, will be provided upon publication).   
+The Kinetics I3D pre-trained feature of EGTEA dataset can be downloaded from [GDrive link](https://drive.google.com/drive/folders/1Zj1B2UZnjPgLrylhKOfu7m_9rkQFa14T?usp=sharing).   
 Files should be located in 'data/'.  
 You can get other features from the following links -  
 - [EPIC-Kitchen 100](https://github.com/happyharrycn/actionformer_release)
 - [THUMOS'14](https://github.com/YHKimGithub/OAT-OSN/)
 - [MUSES](https://songbai.site/muses/)
 
-### Trained Model
-The trained models that used pre-trained feature can be downloaded from [link]() (Because of anonymity, the GDrive link will be provided upon publication).    
-Files should be located in 'checkpoints/'. 
+### Config Files
+The configuration files for EGTEA are already provided in the repository. For other datasets, they can be downloaded from [GDrive link](https://drive.google.com/drive/folders/19__GnM2HZCCDshED9kadsLNAI9XBvrFd?usp=sharing).
 
-### Training Model by own
+### Training Model 
 To train the main HAT model, execute the command below.
 ```
 python main.py --mode=train --split=[split #]*
